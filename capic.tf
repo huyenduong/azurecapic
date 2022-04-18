@@ -36,7 +36,7 @@ resource "azurerm_resource_group_template_deployment" "capic" {
     location                 = { value = var.location }
     _artifactsLocation       = { value = "https://catalogartifact.azureedge.net/publicartifacts/cisco.cisco-aci-cloud-apic-8daf35dd-b9ee-4fd4-9235-74bc41ddc901-25_0_2-byol/Artifacts/mainTemplate.json" }
     adminPasswordOrKey       = { value = "123Cisco123!" }
-    adminPublicKey           = { value = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDA6CI26ym4VD1PWBq83rx3zbHsn8Ky668ALZfG8z17vDeu6skxb41qPQyL80ovesQx+avrh/kiNhm+Nt87XYTcnaG03wj6NB5jwCvD8vIVKPULximDUxfxA8lp9DgjNdiUSyys2Mt2NVzT7J9vGKpnIK3FxrMW7RkDXBb6N8NCbyvu5d+QVFsbjej5neOAfSR7YJSDLhy2bUrZqKVefOkUeHiufo+hPqObMCYjc5GULV+cqTUTW2ippHtCKXTyYJudiJAaWFiWYcNiupH91LRvOABIQk38CX3OlnvG3ab+mUJq6XGMEKPJMlxI+cQBkjn2oKa8I8s43vyfsp6xwFjL" }
+    adminPublicKey           = { value = "ssh-rsa AAAAB3NzA6CI26ym4VD1PWBq83rx3z1qPQyL80ovesUxfxA8lp9DgjNdiUSyys2Mt2NVzT7J9vGKpnIK3FxrMW7RkDXBb6N8NCbyvu5d+QVFsbjej5neOAfSR7YJSDLhy2bUrZqKVefOkUeHiufo+hPqObMCYjc5GULV+cqTUTW2ippHtCKXTyYJudiJAaWFiWYcNiupH91LRvOABIQk38CX3OlnvG3ab+mUJq6XGMEKPJMlxI+cQBkjn2oKa8I8s43vyfsp6xwFjL" }
     location                 = { value = "eastus" }
     vmName                   = { value = "CloudAPIC" }
     vmSize                   = { value = "Standard_D8s_v3" }
